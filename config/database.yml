@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: yogu_production
+  database: yogu
   username: yogu
   password: <%= ENV["YOGU_DATABASE_PASSWORD"] %>
